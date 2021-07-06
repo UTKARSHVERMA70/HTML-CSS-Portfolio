@@ -1,0 +1,274 @@
+
+
+body{
+    background-image: url("bg.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur();
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
+}
+/* NAVAGATION */
+/* Stripr on top [white] */
+.stripe
+{   
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 70px;
+    color: white;
+    margin: 0%;
+    opacity: 0.2;
+    padding: 0%;
+    display: flex;
+}
+
+
+
+.Nav
+{
+    float: right;
+    background-color: transparent;
+    margin: 7px;
+    padding: 3px 4px;
+    font-size: 22px;
+    color: black;
+    position: relative;
+    top: -70px;
+    right: 70px;
+    border-radius: 5px;
+    
+}
+.Nav:hover{
+    background-color: white;
+
+}
+
+
+
+#home{
+    background-color: whitesmoke;
+}
+
+
+.NAVAGATION{
+    list-style: none;
+    
+}
+/* NAVAGATION */
+
+
+
+/* ---------------------------------------------- */
+
+
+/* Name  */
+
+.name{
+   text-align: center;
+   color: whitesmoke;
+   position: relative;
+   top: 130px;
+   font-size: 80px;
+   letter-spacing: -10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif ;
+   
+}
+/* Name */
+
+/* Button */
+.webdevbutton
+{
+    background-color: transparent;
+    border-style: solid;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    border-color: rgb(255, 255, 255);
+}
+
+
+/* Button */
+ /* --------------------- */
+
+
+
+
+
+
+
+ /* About */
+ .blackbox{
+
+    background-color: #ffffff;
+    height: 230px;
+    width: 1000px;
+    position: relative;
+    top: 400px;
+    min-width: auto;
+    z-index: 1;
+    opacity: 0.2;
+    box-shadow: black 2px 2px;
+ }
+ /* Dp */
+
+ .dp{
+     border-radius: 50%;
+     position: relative;
+     top: 80px;
+     border-color: white;
+     box-shadow: rgb(29, 27, 27) 3px 3px;
+     z-index: 5;
+ }
+ /* Dp */
+
+ /* ---------------- */
+
+
+
+
+
+
+
+ /* aboutparagraph */
+ .aboutparagraph{
+     position: relative;
+     z-index: 10;
+     max-width: 800PX;
+     top: 100PX;
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+
+
+ /* bOX */
+/* Heading skills */
+.skills
+{
+    color: white;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 330px;
+    text-align: center;
+    opacity: 0.1;
+}
+#logo{
+    position: relative;
+    top: 300px;
+    float: left;
+    padding: 0;
+    background-color: black;
+    margin: 50px;
+    height: 150px;
+    width: 150px;
+    left: 300px;
+    opacity: 1;
+    
+}
+
+.htmllogo{
+    left: -690px;
+}
+.csslogo{
+    left: -470px;
+    height: 120px;
+}
+.javascriptlogo{
+    left: -250px;
+}
+
+
+
+
+
+/* ----------Responsivness------------ */
+
+@media screen and (max-width:1122px) {
+    #logo{
+    left: 100px;
+
+    }
+    
+}
+
+@media screen and (max-width:1122px) {
+    .blackbox{
+
+        background-color: #ffffff;
+        height: 230px;
+        width: 900px;
+        position: relative;
+        top: 400px;
+        min-width: auto;
+        z-index: 1;
+        opacity: 0.2;
+        box-shadow: black 2px 2px;
+     }
+}
+
+@media screen and (max-width:890px) {
+    .blackbox{
+        width: 800px;
+    }
+
+    #logo{
+    position: relative;
+    top: 300px;
+    float: left;
+    padding: 0;
+    background-color: black;
+    margin: 50px;
+    height: 120px;
+    width: 120px;
+    left: 120px;
+    opacity: 1;
+    }
+}
+
+@media screen and (max-width: 794px ) {
+    .blackbox{
+        width: 600px;
+    }
+    .aboutparagraph{
+        max-width: 500px;
+    }
+    #logo{
+        left: 70px;
+    }
+
+    
+}
+
+@media screen and (max-width:586px) {
+    .blackbox{
+        width: 400px;
+        height: 500px;
+
+    }
+    .aboutparagraph{
+        max-width: 300px;
+    }
+    #logo{
+        left: 100px;
+    }
+    .dp{
+        border-radius: 50%;
+        position: relative;
+        top: -180px;
+        border-color: white;
+        box-shadow: rgb(29, 27, 27) 3px 3px;
+        z-index: 5;
+    }
+
+    .aboutparagraph{
+        position: relative;
+        z-index: 10;
+        max-width: 300PX;
+        top: -100PX;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}

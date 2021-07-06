@@ -1,0 +1,61 @@
+body{
+     background-image: url("bgcontact.jpg"); 
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur();
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+  
+
+.contact{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    opacity: 0.7;
+    
+}
+
+.head{
+    color: black;
+    opacity: 1;
+}
+
+.pos{
+    position: relative;
+    top: 30px;
+    opacity: 1;
+
+}
+
+.textarea{
+    position: relative;
+    top: 15px;
+    opacity: 1;
+
+}
+
+.SUB{
+    position: relative;
+    top: 7px;
+    background-color: chartreuse;
+    color: white;
+    border-color: chartreuse;
+    font-size: 20px;
+    border-radius: 8px;
+    opacity: 1;
+
+}
+
+
+.name{
+    opacity: 1;
+}
